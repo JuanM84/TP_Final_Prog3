@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: frp.utn.tp.ArchitectureTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.20 s <<< FAILURE! -- in frp.utn.tp.ArchitectureTest
+frp.utn.tp.ArchitectureTest.repositories_should_only_be_called_by_transactional_methods -- Time elapsed: 0.082 s <<< FAILURE!
+java.lang.AssertionError: 
+Architecture Violation [Priority: MEDIUM] - Rule 'methods that are declared in classes that are assignable to org.springframework.data.repository.Repository should only be called by methods that annotated with @Transactional' was violated (1 times):
+Method <frp.utn.tp.taskmanagement.service.PersonService.list(org.springframework.data.domain.Pageable)> calls method <frp.utn.tp.taskmanagement.domain.PersonRepository.findAllBy(org.springframework.data.domain.Pageable)> in (PersonService.java:48)
+	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)
+	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)
+	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)
+	at com.tngtech.archunit.lang.syntax.ObjectsShouldInternal.check(ObjectsShouldInternal.java:81)
+	at frp.utn.tp.ArchitectureTest.repositories_should_only_be_called_by_transactional_methods(ArchitectureTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

@@ -1,0 +1,18 @@
+{
+  "frontendFolder": "/home/TUP/Escritorio/todo-app/src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/home/TUP/Escritorio/todo-app/src/main/frontend/generated/jar-resources",
+  "staticOutput": "/home/TUP/Escritorio/todo-app/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/home/TUP/Escritorio/todo-app/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/home/TUP/Escritorio/todo-app/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/home/TUP/Escritorio/todo-app/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/home/TUP/Escritorio/todo-app/target/dev-bundle/config",
+  "i18nOutput": "target/classes/vaadin-i18n",
+  "jarResourcesFolder": "/home/TUP/Escritorio/todo-app/src/main/frontend/generated/jar-resources",
+  "themeName": "default",
+  "clientServiceWorkerSource": "/home/TUP/Escritorio/todo-app/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
