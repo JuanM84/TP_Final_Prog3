@@ -1,0 +1,18 @@
+{
+  "productionMode" : false,
+  "eagerServerLoad" : false,
+  "npmFolder" : "/home/TUP/Descargas/TP_Final_Prog3",
+  "node.version" : "v22.15.1",
+  "node.download.root" : "https://nodejs.org/dist/",
+  "frontendFolder" : "/home/TUP/Descargas/TP_Final_Prog3/src/main/frontend",
+  "connect.javaSourceFolder" : "/home/TUP/Descargas/TP_Final_Prog3/src/main/java",
+  "javaResourceFolder" : "/home/TUP/Descargas/TP_Final_Prog3/src/main/resources",
+  "connect.applicationProperties" : "/home/TUP/Descargas/TP_Final_Prog3/src/main/resources/application.properties",
+  "connect.openApiFile" : "/home/TUP/Descargas/TP_Final_Prog3/target/generated-resources/openapi.json",
+  "project.frontend.generated" : "/home/TUP/Descargas/TP_Final_Prog3/src/main/frontend/generated",
+  "pnpm.enable" : false,
+  "bun.enable" : false,
+  "require.home.node" : false,
+  "build.folder" : "target",
+  "react.enable" : true
+}
